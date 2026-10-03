@@ -46,7 +46,14 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/guide' : '3ec2319ee11180c28bc5c4f98752ccfb', //배모 이용 가이드
+    '/rules' : '3ec2319ee111801ab76acac654da728d', //이용 규칙
+    '/beginner' : '3ec2319ee11180b0b755f5c0d01dede5', //초보 가이드
+    '/yeonsin' : '3ed2319ee111803f9c66f41ed41656fa', //연신초 출입방법
+    '/hoam' : '3ed2319ee11180199f01fe9cfb7c5133', //호암초 출입방법
+    '/yeonseo' : '3ed2319ee11180b7bf7fd73218564051' //연서초 출입방법
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
